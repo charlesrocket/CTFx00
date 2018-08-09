@@ -19,3 +19,4 @@ nmap -sU -p1-1000 $IP >> $name
 uniscan -u $IP -qweds
 nikto -host $IP
 dirb $IP
+cd ..
