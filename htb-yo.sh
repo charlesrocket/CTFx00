@@ -8,8 +8,8 @@ ___ ___ _______
  |::.| |::.. . |
  `---' `-------'
 EOF
-read -p "target name:"  name
-read -p "target IP:"  IP
+read -p "target name: "  name
+read -p "target IP: "  IP
 echo "target set to $IP!"
 mkdir -p $name/recon
 cd $name
